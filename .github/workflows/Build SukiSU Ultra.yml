@@ -519,8 +519,8 @@ jobs:
       - name: "🔨 Build Kernel | 编译内核"
         run: |
           echo "🏗️ 开始内核编译..."
-          export KBUILD_BUILD_USER="xiaoxiaow"
-          export KBUILD_BUILD_HOST="xiaoxiaow_build"
+          export KBUILD_BUILD_USER="SnowFlame"
+          export KBUILD_BUILD_HOST="SnowFlame_build"
 
           if [ "${{ github.event.inputs.KERNEL_VERSION }}" == "6.1" ]; then
             export KBUILD_BUILD_TIMESTAMP="Tue Mar 10 03:53:33 UTC 2026"
